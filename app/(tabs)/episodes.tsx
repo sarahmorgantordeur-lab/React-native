@@ -1,9 +1,9 @@
+import { Episode, fetchEpisodes, getImageUrl } from "@/api/simpsons";
+import { SIMPSONS } from "@/constants/theme";
 import { Ionicons } from "@expo/vector-icons";
 import { useRouter } from "expo-router";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { ActivityIndicator, FlatList, Image, StyleSheet, Text, TouchableOpacity, View } from "react-native";
-import { Episode, fetchEpisodes, getImageUrl } from "@/api/simpsons";
-import { SIMPSONS } from "@/constants/theme";
 
 export default function EpisodesScreen() {
   const [data, setData] = useState<Episode[]>([]);
@@ -110,7 +110,7 @@ const styles = StyleSheet.create({
   name: {
     fontSize: 15,
     fontWeight: "bold",
-    color: SIMPSONS.darkBlue,
+    color: SIMPSONS.coolorange,
   },
   badge: {
     flexDirection: "row",

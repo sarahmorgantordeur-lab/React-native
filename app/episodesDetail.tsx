@@ -1,7 +1,7 @@
+import { SIMPSONS } from "@/constants/theme";
 import { Ionicons } from "@expo/vector-icons";
 import { useLocalSearchParams, useRouter } from "expo-router";
 import { Image, ScrollView, StyleSheet, Text, TouchableOpacity, View } from "react-native";
-import { SIMPSONS } from "@/constants/theme";
 
 export default function EpisodesDetailScreen() {
   const router = useRouter();
@@ -61,7 +61,7 @@ const styles = StyleSheet.create({
     paddingTop: 60,
     paddingHorizontal: 16,
     paddingBottom: 16,
-    backgroundColor: SIMPSONS.darkBlue,
+    backgroundColor: SIMPSONS.coolorange,
   },
   headerTitle: {
     fontSize: 20,
@@ -90,7 +90,7 @@ const styles = StyleSheet.create({
   name: {
     fontSize: 22,
     fontWeight: "bold",
-    color: SIMPSONS.darkBlue,
+    color: SIMPSONS.coolorange,
     textAlign: "center",
     marginBottom: 12,
   },
@@ -123,7 +123,7 @@ const styles = StyleSheet.create({
   synopsisTitle: {
     fontSize: 16,
     fontWeight: "bold",
-    color: SIMPSONS.darkBlue,
+    color: SIMPSONS.coolorange,
     marginBottom: 10,
   },
   synopsis: {

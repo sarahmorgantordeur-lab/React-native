@@ -1,7 +1,7 @@
+import { SIMPSONS } from "@/constants/theme";
 import { Ionicons } from "@expo/vector-icons";
 import { useLocalSearchParams, useRouter } from "expo-router";
 import { Image, StyleSheet, Text, TouchableOpacity, View } from "react-native";
-import { SIMPSONS } from "@/constants/theme";
 
 export default function CharactersDetailScreen() {
   const router = useRouter();
@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
     paddingTop: 60,
     paddingHorizontal: 16,
     paddingBottom: 16,
-    backgroundColor: SIMPSONS.darkBlue,
+    backgroundColor: SIMPSONS.coolorange,
   },
   headerTitle: {
     fontSize: 20,
@@ -93,7 +93,7 @@ const styles = StyleSheet.create({
   name: {
     fontSize: 26,
     fontWeight: "bold",
-    color: SIMPSONS.darkBlue,
+    color: SIMPSONS.coolorange,
     marginBottom: 20,
   },
   card: {

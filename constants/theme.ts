@@ -1,7 +1,7 @@
 export const SIMPSONS = {
   yellow: "#FED90F",
   blue: "#70D1FE",
-  darkBlue: "#1A3A5C",
+  coolorange: "#e3803d",
   brown: "#8B5E3C",
   white: "#FFFFFF",
   pink: "#FC8EAC",

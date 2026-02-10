@@ -1,8 +1,8 @@
+import { Character, fetchCharacters, getImageUrl } from "@/api/simpsons";
+import { SIMPSONS } from "@/constants/theme";
 import { useRouter } from "expo-router";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { ActivityIndicator, FlatList, Image, StyleSheet, Text, TouchableOpacity, View } from "react-native";
-import { Character, fetchCharacters, getImageUrl } from "@/api/simpsons";
-import { SIMPSONS } from "@/constants/theme";
 
 export default function PersoScreen() {
   const [data, setData] = useState<Character[]>([]);
@@ -108,7 +108,7 @@ const styles = StyleSheet.create({
   name: {
     fontSize: 17,
     fontWeight: "bold",
-    color: SIMPSONS.darkBlue,
+    color: SIMPSONS.coolorange,
   },
   occupation: {
     fontSize: 13,

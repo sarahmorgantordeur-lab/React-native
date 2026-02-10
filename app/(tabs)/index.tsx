@@ -1,7 +1,7 @@
+import { SIMPSONS } from "@/constants/theme";
 import { Ionicons } from "@expo/vector-icons";
 import { useRouter } from "expo-router";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
-import { SIMPSONS } from "@/constants/theme";
 
 export default function Index() {
   const router = useRouter();
@@ -77,6 +77,6 @@ const styles = StyleSheet.create({
     marginTop: 10,
     fontSize: 15,
     fontWeight: "bold",
-    color: SIMPSONS.darkBlue,
+    color: SIMPSONS.coolorange,
   },
 });

@@ -1,6 +1,6 @@
+import { SIMPSONS } from "@/constants/theme";
 import { Ionicons } from "@expo/vector-icons";
 import { Tabs } from "expo-router";
-import { SIMPSONS } from "@/constants/theme";
 
 export default function TabsLayout() {
   return (
@@ -20,7 +20,7 @@ export default function TabsLayout() {
           color: SIMPSONS.white,
         },
         headerStyle: {
-          backgroundColor: SIMPSONS.darkBlue,
+          backgroundColor: SIMPSONS.coolorange,
         },
       }}
     >
