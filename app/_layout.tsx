@@ -4,7 +4,10 @@ export default function RootLayout() {
   return (
     <Stack screenOptions={{ headerShown: false }}>
       <Stack.Screen name="(tabs)" />
-      <Stack.Screen name="detail" />
+      <Stack.Screen name="details" />
+      <Stack.Screen name="charactersDetail" />
+      <Stack.Screen name="episodesDetail" />
+      <Stack.Screen name="locationsDetail" />
     </Stack>
   );
 }
